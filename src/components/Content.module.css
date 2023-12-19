@@ -1,0 +1,35 @@
+.content {
+    text-align: center;
+}
+
+.cityName {
+    font-weight: bolder;
+    margin: 2.25rem 0;
+}
+
+.informations {
+    margin: 4.5rem 0;
+}
+
+.currentWeather {
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+
+.temperature {
+    font-size: 3rem;
+}
+
+.statusWeather {
+    font-size: 2rem;
+}
+
+.forecastTitle {
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+
+.forecastList {
+    display: flex;
+    list-style: none;
+}

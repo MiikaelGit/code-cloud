@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(rgb(90, 100, 133), rgb(26, 58, 160));
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+    margin: 0 0.5rem 2rem 0.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 85%;
+  }
+
+  body {
+    margin-bottom: 9rem;
+  }
+}
