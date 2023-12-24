@@ -1,39 +1,40 @@
 .forecast {
-    padding: 0.5rem 1.5rem;
-    background-color: #0000008c;
-    border-radius: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 0.5rem 1.5rem;
+  background-color: #0000008c;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.forecast+.forecast {
-    margin-top: 0.5rem;
+.forecast + .forecast {
+  margin-top: 0.5rem;
 }
 
 .day {
-    font-weight: normal;
-    min-width: 7.5rem;
-    text-align: start;
+  font-weight: normal;
+  min-width: 7.5rem;
+  text-align: start;
+  font-size: 1rem;
 }
 
 .info {
-    display: flex;
-    min-width: 5rem;
-    justify-content: space-between;
+  display: flex;
+  min-width: 5rem;
+  justify-content: space-between;
 }
 
 .infoText {
-    display: inline;
+  display: inline;
 }
 
 @media (max-width: 380px) {
-    .forecast {
-        flex-direction: column;
-        height: 7rem;
-    }
+  .forecast {
+    flex-direction: column;
+    height: 7rem;
+  }
 
-    .day {
-        text-align: center;
-    }
+  .day {
+    text-align: center;
+  }
 }
