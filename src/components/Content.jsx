@@ -13,7 +13,6 @@ export function Content({ value, temperature, description, forecast }) {
   ];
   const now = new Date();
   const day = now.getDay();
-  console.log(daysOfWeek[day]);
   forecast[1].day = daysOfWeek[day + 2];
   forecast[2].day = daysOfWeek[day + 3];
   if (daysOfWeek[day] === "Quinta-feira") {
