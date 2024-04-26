@@ -1,8 +1,6 @@
-# React + Vite
+# Code Cloud
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![](public/code-cloud.gif)
+Aplicativo de previsao do tempo usando a [goweatherAPI](https://github.com/theovidal/goweather) atraves do FetchAPI. Pesquisando o nome de qualquer cidade e trazendo informaçoes sobre o clima de hoje e dos 3 dias seguintes.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Link da aplicaçao](https://code-cloud.vercel.app/)
